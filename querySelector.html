@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Xin chào xinh đẹp </p>
+
+<p>Chọn vào đây để thấy sự thay đổi nhé</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1">Nhìn sự khác biệt nè</p>
+
+<button onclick="myFunction1()">Try it</button>
+
+<script>
+function myFunction() {
+  document.querySelector("#demo").innerHTML = "Bạn chang";
+}
+function myFunction1() {
+  var x = document.getElementById("demo1");
+  x.style.color = "red";
+}
+</script>
+
+</body>
+</html>
